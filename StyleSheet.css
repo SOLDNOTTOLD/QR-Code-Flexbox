@@ -1,0 +1,48 @@
+﻿html, body {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(213, 225, 239);
+    display: flex;
+}
+
+    .container {
+        width: 223px;
+        height: 360px;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 5%;
+        margin-bottom: 450px;
+        margin-top: 450px;
+    }
+
+    .box {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 2px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .code {
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 5%;
+        object-fit: cover;
+    }
+
+    .one {
+        font-family: Outfit;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .two {
+        color: darkgray;
+        font-family: Outfit;
+        font-weight: 500;
+        font-size: 11px;
+    }
+
+
