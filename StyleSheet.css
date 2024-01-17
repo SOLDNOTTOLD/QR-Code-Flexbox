@@ -1,4 +1,5 @@
-﻿html, body {
+﻿   body {
+    min-height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: rgb(213, 225, 239);
@@ -11,18 +12,10 @@
         background-color: white;
         justify-content: center;
         align-items: center;
-        display: flex;
+        display: grid;
         border-radius: 5%;
-        margin-bottom: 450px;
-        margin-top: 450px;
-    }
-
-    .box {
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 2px;
-        margin-right: 10px;
-        margin-left: 10px;
+        padding: 2px;
+        
     }
 
     .code {
@@ -30,19 +23,30 @@
         max-height: 200px;
         border-radius: 5%;
         object-fit: cover;
+        margin-top: -8px;
     }
 
-    .one {
-        font-family: Outfit;
+
+    .improve {
+        font-family: Outfit, Roboto, sans-serif;
         font-weight: 700;
         font-size: 16px;
+        text-align:center;
+        margin-top: -20px;
     }
 
-    .two {
+    .scan {
         color: darkgray;
-        font-family: Outfit;
+        font-family: Outfit, Roboto, sans-serif;
         font-weight: 500;
         font-size: 11px;
+        text-align:center;
+        margin-top: -40px;
+
+    }
+
+    span {
+        display: block;
     }
 
 
